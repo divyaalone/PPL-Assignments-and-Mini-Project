@@ -20,7 +20,7 @@ users.post('/register', (req, res) => {
     created: today
   }
   console.log(userData.first_name);
-  console.log(userData.lasst_name);
+  console.log(userData.last_name);
 
   if(userData.first_name =="" || userData.last_name == "" || userData.email == "" || userData.password == ""){
     return res.json({

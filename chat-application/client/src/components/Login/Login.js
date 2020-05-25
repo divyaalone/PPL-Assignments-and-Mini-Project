@@ -133,7 +133,7 @@ class Login extends Component {
                 </div>
               </div>
               <br />
-              <input type="submit" className="btn" value="Sign In" />
+              <input type="submit" className="btn" value="Sign In!" />
             </form>
           </div>
         </div>
